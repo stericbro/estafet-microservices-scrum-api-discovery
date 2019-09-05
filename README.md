@@ -2,7 +2,7 @@
 
 ## What is this?
 This microservice is serving as a client-side discovery in Estafet Scrum Demo Application.
-We use Eureka as a client-side discovery. 
+We use Eureka as a client-side discovery.
 Each microservice is registered in our Disovery microservice.
 In case of OpenShift we could have more than one pod per application and because OpenShift is supporting Eureka, we are able to register all pods per microservice.
 
